@@ -24,4 +24,4 @@ Documentation for the serial api can be found [here](https://tapto.wiki/Reader_D
 4. Reboot the TapTo service (or the entire device).
 
 ## Launching Game
-You can make a http request to (assuming your hostname is espTapToSerial and port 7497) http://espTapToSerial.local:7497/TEXT, where TEXT is the text of your TapTo card. For legacy v1 support, it will also respond if the request is http://espTapToSerial.local:7497/api/v1/launch/TEXT
+You can make a http request to (assuming your hostname is espTapToSerial and port 7497) http://espTapToSerial.local:7497/TEXT, where TEXT is the text of your TapTo card (properly UriEncoded). For legacy v1 support, it will also respond if the request is http://espTapToSerial.local:7497/api/v1/launch/TEXT
