@@ -22,3 +22,6 @@ Documentation for the serial api can be found [here](https://tapto.wiki/Reader_D
 3. In the [TapTo] section, add the line "reader=simple_serial:\<path to device>", where \<path to device> is the path to where your Esp32 is mounted.
    * For my setup using a Mister, my device was mounted at /dev/ttyACM0
 4. Reboot the TapTo service (or the entire device).
+
+## Launching Game
+You can make a http request to (assuming your hostname is espTapToSerial and port 7497) http://espTapToSerial.local:7497/TEXT, where TEXT is the text of your TapTo card. For legacy v1 support, it will also respond if the request is http://espTapToSerial.local:7497/api/v1/launch/TEXT
