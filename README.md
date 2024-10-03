@@ -4,6 +4,8 @@ The goal of this code is to provide a simple serial wifi bridge for the [TapTo S
 2. You are working with a wifi device that has limitted/lacking support for the autentication used by the official web api.
 3. You plan on using this as sample code to interface your own project with TapTo via serial (like launching a game based temperature and light sensors, a control pad that triggers different games based on keypresses, etc...).
 
+Documentation for the serial api can be found [here](https://tapto.wiki/Reader_Drivers).
+
 ## Required Parts
 * An Esp32
 
