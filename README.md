@@ -1,4 +1,8 @@
 # TapTo Esp32 Serial Bridge
+## Archived
+This is now archived. If you want to use simple serial, you can use the more generic project here https://github.com/v1605/SerialRelay
+
+
 The goal of this code is to provide a simple serial wifi bridge for the [TapTo Service](https://github.com/TapToCommunity/tapto) project in order to launch games. It also provides backwards compatbility for the v1 launch api. There are a few reasons why you may want to an ESP32 instead of the official [web api](https://tapto.wiki/API):
 1. Use are using a project that interfaced with the older v1 api to launch games and that project has not been updated.
 2. You are working with a wifi device that has limitted/lacking support for the autentication used by the official web api.
